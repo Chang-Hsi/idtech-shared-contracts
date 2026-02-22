@@ -1,10 +1,13 @@
 {
-  "name": "@idtech/shared-contracts",
-  "version": "0.1.0",
+  "name": "@chang-hsi/idtech-shared-contracts",
+  "version": "0.1.1",
   "type": "module",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "dependencies": {
     "zod": "^4.3.6"
